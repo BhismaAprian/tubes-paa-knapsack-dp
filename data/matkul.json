@@ -1,0 +1,12 @@
+[
+  { "nama": "Kecerdasan Buatan",    "sks": 3, "ekspektasi_nilai": 4.0, "kategori": "Pilihan" },
+  { "nama": "Pengolahan Citra",     "sks": 3, "ekspektasi_nilai": 3.5, "kategori": "Pilihan" },
+  { "nama": "Keamanan Jaringan",    "sks": 2, "ekspektasi_nilai": 3.7, "kategori": "Pilihan" },
+  { "nama": "Data Mining",          "sks": 3, "ekspektasi_nilai": 3.0, "kategori": "Pilihan" },
+  { "nama": "Cloud Computing",      "sks": 2, "ekspektasi_nilai": 4.0, "kategori": "Pilihan" },
+  { "nama": "Internet of Things",   "sks": 2, "ekspektasi_nilai": 3.5, "kategori": "Pilihan" },
+  { "nama": "Komputasi Paralel",    "sks": 3, "ekspektasi_nilai": 3.3, "kategori": "Pilihan" },
+  { "nama": "Riset Operasi",        "sks": 2, "ekspektasi_nilai": 3.8, "kategori": "Pilihan" },
+  { "nama": "Pemrosesan Bahasa Alami", "sks": 3, "ekspektasi_nilai": 3.6, "kategori": "Pilihan" },
+  { "nama": "Sistem Terdistribusi", "sks": 2, "ekspektasi_nilai": 3.4, "kategori": "Pilihan" }
+]

@@ -30,10 +30,10 @@ def load_matkul():
 MATKUL_DEFAULT = load_matkul()
 
 with st.sidebar:
-    st.title("⚙️ Pengaturan")
+    st.title("Pengaturan")
     st.markdown("---")
 
-    st.subheader("📚 Batas SKS")
+    st.subheader("Batas SKS")
     batas_sks = st.slider(
         "Maksimal SKS yang bisa diambil",
         min_value=4,
@@ -44,11 +44,11 @@ with st.sidebar:
     )
 
     st.markdown("---")
-    st.subheader("🗓️ Pilih Semester")
+    st.subheader("Pilih Semester")
     pilihan_semester = st.selectbox("Pilih data semester yang ingin dioptimasi:", list(MATKUL_DEFAULT.keys()))
     
     st.markdown("---")
-    st.subheader("📋 Daftar Mata Kuliah")
+    st.subheader("Daftar Mata Kuliah")
     st.caption(f"Menampilkan matkul untuk {pilihan_semester}. Edit ekspektasi nilai sesuai kemampuanmu.")
 
     # Ambil data HANYA dari semester yang dipilih
@@ -86,7 +86,7 @@ with st.sidebar:
     st.markdown("---")
     
     # ---> INI VARIABEL YANG BIKIN ERROR TADI <---
-    tombol = st.button("🚀 Hitung Kombinasi Optimal", type="primary", use_container_width=True)
+    tombol = st.button("Hitung Kombinasi Optimal", type="primary", use_container_width=True)
 
     st.markdown("---")
     st.caption("Algoritma: 0/1 Knapsack DP\nKompleksitas: O(n × W)")
@@ -95,7 +95,7 @@ with st.sidebar:
 #  HEADER UTAMA
 # ─────────────────────────────────────────────
 
-st.title("🎓 Optimasi Pemilihan Mata Kuliah")
+st.title("Optimasi Pemilihan Mata Kuliah")
 st.markdown(
     "**Algoritma Dynamic Programming** · 0/1 Knapsack Problem  \n"
     "Menentukan kombinasi mata kuliah pilihan yang **memaksimalkan ekspektasi IPK** "
@@ -108,10 +108,10 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 
 tab1, tab2, tab3, tab4 = st.tabs([
-    "📊 Hasil Optimal",
-    "🧮 Tabel DP",
-    "📈 Analisis Kompleksitas",
-    "📖 Penjelasan Algoritma",
+    "Hasil Optimal",
+    "Tabel DP",
+    "Analisis Kompleksitas",
+    "Penjelasan Algoritma",
 ])
 
 # ════════════════════════════════════════════════════════
@@ -120,23 +120,23 @@ tab1, tab2, tab3, tab4 = st.tabs([
 
 with tab1:
     if not tombol:
-        st.info("👈 Atur parameter di sidebar, lalu tekan **Hitung Kombinasi Optimal**.")
+        st.info("Atur parameter di sidebar, lalu tekan **Hitung Kombinasi Optimal**.")
     else:
         if len(matkul_list) == 0:
-            st.error("❌ Tidak ada data mata kuliah. Tambahkan di sidebar.")
+            st.error("Tidak ada data mata kuliah. Tambahkan di sidebar.")
         else:
             with st.spinner("Menjalankan algoritma DP..."):
                 time.sleep(0.3)   # animasi loading kecil
                 hasil = solve(matkul_list, batas_sks)
 
-            st.success("✅ Optimasi selesai!")
+            st.success("Optimasi selesai!")
 
             # ── Metric cards ─────────────────────────────────────────────
             col1, col2, col3, col4 = st.columns(4)
-            col1.metric("📚 Matkul Dipilih",    len(hasil["dipilih"]))
-            col2.metric("📋 Total SKS",          hasil["total_sks"], f"dari {batas_sks} SKS")
-            col3.metric("⭐ Ekspektasi IPK",     f"{hasil['ekspektasi_ipk']:.2f}", "skala 4.0")
-            col4.metric("⚡ Waktu Eksekusi",     f"{hasil['waktu_eksekusi_ms']} ms")
+            col1.metric("Matkul Dipilih",    len(hasil["dipilih"]))
+            col2.metric("Total SKS",          hasil["total_sks"], f"dari {batas_sks} SKS")
+            col3.metric("Ekspektasi IPK",     f"{hasil['ekspektasi_ipk']:.2f}", "skala 4.0")
+            col4.metric("Waktu Eksekusi",     f"{hasil['waktu_eksekusi_ms']} ms")
 
             st.markdown("---")
 
@@ -144,7 +144,7 @@ with tab1:
             left, right = st.columns(2)
 
             with left:
-                st.subheader("✅ Mata Kuliah Dipilih")
+                st.subheader("Mata Kuliah Dipilih")
                 if hasil["dipilih"]:
                     df_dipilih = pd.DataFrame(hasil["dipilih"])
                     df_dipilih = df_dipilih.rename(columns={
@@ -167,7 +167,7 @@ with tab1:
                     st.warning("Tidak ada matkul yang dipilih.")
 
             with right:
-                st.subheader("❌ Mata Kuliah Tidak Dipilih")
+                st.subheader("Mata Kuliah Tidak Dipilih")
                 if hasil["tidak_dipilih"]:
                     df_tidak = pd.DataFrame(hasil["tidak_dipilih"])
                     if "kategori" in df_tidak.columns:
@@ -180,7 +180,7 @@ with tab1:
             st.markdown("---")
 
             # ── Grafik perbandingan ───────────────────────────────────────
-            st.subheader("📊 Visualisasi Pemilihan Matkul")
+            st.subheader("Visualisasi Pemilihan Matkul")
 
             semua = pd.DataFrame(matkul_list)
             semua["Status"] = semua["nama"].apply(
@@ -230,9 +230,9 @@ with tab1:
 
 with tab2:
     if not tombol:
-        st.info("👈 Jalankan optimasi di Tab **Hasil Optimal** terlebih dahulu.")
+        st.info("Jalankan optimasi di Tab **Hasil Optimal** terlebih dahulu.")
     else:
-        st.subheader("🧮 Tabel Dynamic Programming")
+        st.subheader("Tabel Dynamic Programming")
         st.markdown(
             "Setiap sel `dp[i][s]` = **bobot IPK tertinggi** dengan mempertimbangkan "
             "`i` mata kuliah pertama dan total SKS = `s`."
@@ -261,7 +261,7 @@ with tab2:
         )
 
         # ── Heatmap interaktif ────────────────────────────────────────────
-        st.subheader("🌡️ Heatmap Tabel DP")
+        st.subheader("Heatmap Tabel DP")
         fig_heat = go.Figure(data=go.Heatmap(
             z          = [[tabel[i][s] for s in range(W + 1)] for i in range(n + 1)],
             x          = [f"SKS={s}" for s in range(W + 1)],
@@ -276,7 +276,7 @@ with tab2:
         st.plotly_chart(fig_heat, use_container_width=True)
 
         # ── Penjelasan traceback ──────────────────────────────────────────
-        st.subheader("🔍 Proses Traceback")
+        st.subheader("Proses Traceback")
         st.markdown("Pelacakan mundur untuk menemukan kombinasi matkul yang dipilih:")
 
         steps = []
@@ -285,10 +285,10 @@ with tab2:
             nama = matkul_list[i - 1]["nama"]
             sks  = matkul_list[i - 1]["sks"]
             if abs(tabel[i][s_cur] - tabel[i - 1][s_cur]) > 1e-9:
-                steps.append(f"✅ **i={i}** ({nama}): dp[{i}][{s_cur}]={tabel[i][s_cur]:.1f} ≠ dp[{i-1}][{s_cur}]={tabel[i-1][s_cur]:.1f} → **DIPILIH**, SKS sisa {s_cur}→{s_cur-sks}")
+                steps.append(f"**i={i}** ({nama}): dp[{i}][{s_cur}]={tabel[i][s_cur]:.1f} ≠ dp[{i-1}][{s_cur}]={tabel[i-1][s_cur]:.1f} → **DIPILIH**, SKS sisa {s_cur}→{s_cur-sks}")
                 s_cur -= sks
             else:
-                steps.append(f"⬜ **i={i}** ({nama}): dp[{i}][{s_cur}]={tabel[i][s_cur]:.1f} = dp[{i-1}][{s_cur}]={tabel[i-1][s_cur]:.1f} → skip")
+                steps.append(f"**i={i}** ({nama}): dp[{i}][{s_cur}]={tabel[i][s_cur]:.1f} = dp[{i-1}][{s_cur}]={tabel[i-1][s_cur]:.1f} → skip")
 
         for step in steps:
             st.markdown(step)
@@ -298,7 +298,7 @@ with tab2:
 # ════════════════════════════════════════════════════════
 
 with tab3:
-    st.subheader("📈 Analisis Kompleksitas Algoritma")
+    st.subheader("Analisis Kompleksitas Algoritma")
 
     col_l, col_r = st.columns(2)
     with col_l:
@@ -316,22 +316,22 @@ with tab3:
     with col_r:
         st.markdown("""
 **Sifat Algoritma:**
-- ✅ Pseudo-polynomial time
-- ✅ Optimal substructure
-- ✅ Overlapping subproblems
-- ✅ Solusi selalu optimal (bukan heuristik)
+- Pseudo-polynomial time
+- Optimal substructure
+- Overlapping subproblems
+- Solusi selalu optimal (bukan heuristik)
 
 **Perbandingan dengan Greedy:**
 | | DP | Greedy |
 |---|---|---|
-| Keoptimalan | ✅ Selalu optimal | ❌ Tidak selalu |
+| Keoptimalan | Selalu optimal | Tidak selalu |
 | Kompleksitas | O(n×W) | O(n log n) |
         """)
 
     st.markdown("---")
 
     # ── Grafik pertumbuhan kompleksitas ───────────────────────────────────
-    st.subheader("📉 Grafik Pertumbuhan Jumlah Operasi vs Batas SKS")
+    st.subheader("Grafik Pertumbuhan Jumlah Operasi vs Batas SKS")
 
     with st.spinner("Menghitung skenario kompleksitas..."):
         data_k = hitung_skenario_kompleksitas(matkul_list if matkul_list else MATKUL_DEFAULT)
@@ -349,7 +349,7 @@ with tab3:
     st.plotly_chart(fig_k, use_container_width=True)
 
     # ── Grafik waktu eksekusi ─────────────────────────────────────────────
-    st.subheader("⏱️ Grafik Waktu Eksekusi Aktual")
+    st.subheader("Grafik Waktu Eksekusi Aktual")
 
     fig_t = px.bar(
         df_k, x="batas_sks", y="waktu_ms",
@@ -361,7 +361,7 @@ with tab3:
     st.plotly_chart(fig_t, use_container_width=True)
 
     # ── Tabel skenario uji ────────────────────────────────────────────────
-    st.subheader("📋 Tabel Skenario Pengujian")
+    st.subheader("Tabel Skenario Pengujian")
 
     skenario_labels = []
     for row in data_k:
@@ -382,7 +382,7 @@ with tab3:
 # ════════════════════════════════════════════════════════
 
 with tab4:
-    st.subheader("📖 Penjelasan Algoritma Dynamic Programming")
+    st.subheader("Penjelasan Algoritma Dynamic Programming")
 
     st.markdown("""
 ### 1. Konsep Dasar

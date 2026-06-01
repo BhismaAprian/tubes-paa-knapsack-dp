@@ -244,7 +244,7 @@ with tab2:
 
         # Buat DataFrame untuk ditampilkan
         col_names = [f"SKS={s}" for s in range(W + 1)]
-        row_names = ["Awal"] + [matkul_list[i]["nama"][:15] for i in range(n)]
+        row_names = ["Awal"] + [f"M{i+1}: {matkul_list[i]['nama']}" for i in range(n)]
 
         df_dp = pd.DataFrame(tabel, columns=col_names, index=row_names)
         df_dp = df_dp.round(2)

@@ -1,18 +1,3 @@
-"""
-app.py  —  Tubes Besar: Optimasi Pemilihan Mata Kuliah
-=======================================================
-Algoritma Dynamic Programming (0/1 Knapsack)
-Antarmuka  : Streamlit (web)
-Jalankan   : streamlit run app.py
-
-Kelompok   : [Nama Kelompok]
-Anggota    :
-    1. [Nama A1] — Algoritma DP
-    2. [Nama A2] — Data & Pengujian
-    3. [Nama A3] — Visualisasi & UI
-    4. [Nama A4] — Laporan & Dokumentasi
-"""
-
 import json
 import os
 import time
@@ -35,9 +20,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ─────────────────────────────────────────────
-#  LOAD DATA
-# ─────────────────────────────────────────────
 
 @st.cache_data
 def load_matkul():
@@ -46,10 +28,6 @@ def load_matkul():
         return json.load(f)
 
 MATKUL_DEFAULT = load_matkul()
-
-# ─────────────────────────────────────────────
-#  SIDEBAR — INPUT & NAVIGASI
-# ─────────────────────────────────────────────
 
 with st.sidebar:
     st.title("⚙️ Pengaturan")

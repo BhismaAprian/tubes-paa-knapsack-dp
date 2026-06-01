@@ -1,0 +1,1578 @@
+{
+    "Semester 1": [
+        {
+            "id": "MK001",
+            "nama_matkul": "Pengantar Manajemen",
+            "sks": 3,
+            "prioritas": 57
+        },
+        {
+            "id": "MK002",
+            "nama_matkul": "Terapan Pancasila",
+            "sks": 4,
+            "prioritas": 86
+        },
+        {
+            "id": "MK003",
+            "nama_matkul": "Kalkulus Proyek",
+            "sks": 4,
+            "prioritas": 67
+        },
+        {
+            "id": "MK004",
+            "nama_matkul": "Teori Pengantar Manajemen",
+            "sks": 2,
+            "prioritas": 57
+        },
+        {
+            "id": "MK005",
+            "nama_matkul": "Pancasila Terapan",
+            "sks": 3,
+            "prioritas": 98
+        },
+        {
+            "id": "MK006",
+            "nama_matkul": "Proyek Pengantar Sistem Informasi",
+            "sks": 3,
+            "prioritas": 58
+        },
+        {
+            "id": "MK007",
+            "nama_matkul": "Pancasila Dasar",
+            "sks": 2,
+            "prioritas": 50
+        },
+        {
+            "id": "MK008",
+            "nama_matkul": "Konsep Teknologi Teori",
+            "sks": 3,
+            "prioritas": 54
+        },
+        {
+            "id": "MK009",
+            "nama_matkul": "Matematika Diskrit Lanjut",
+            "sks": 3,
+            "prioritas": 65
+        },
+        {
+            "id": "MK010",
+            "nama_matkul": "Pancasila",
+            "sks": 2,
+            "prioritas": 52
+        },
+        {
+            "id": "MK011",
+            "nama_matkul": "Literasi Digital Proyek",
+            "sks": 3,
+            "prioritas": 57
+        },
+        {
+            "id": "MK012",
+            "nama_matkul": "Keterampilan Interpersonal",
+            "sks": 2,
+            "prioritas": 13
+        },
+        {
+            "id": "MK013",
+            "nama_matkul": "Algoritma Pemrograman",
+            "sks": 2,
+            "prioritas": 46
+        },
+        {
+            "id": "MK014",
+            "nama_matkul": "Proyek Fisika Dasar",
+            "sks": 3,
+            "prioritas": 82
+        },
+        {
+            "id": "MK015",
+            "nama_matkul": "Pengantar Sistem Informasi Lanjut",
+            "sks": 3,
+            "prioritas": 76
+        },
+        {
+            "id": "MK016",
+            "nama_matkul": "Praktikum Bahasa Inggris",
+            "sks": 2,
+            "prioritas": 39
+        },
+        {
+            "id": "MK017",
+            "nama_matkul": "Kalkulus Praktikum",
+            "sks": 2,
+            "prioritas": 38
+        },
+        {
+            "id": "MK018",
+            "nama_matkul": "Kewarganegaraan",
+            "sks": 2,
+            "prioritas": 30
+        },
+        {
+            "id": "MK019",
+            "nama_matkul": "Terapan Literasi Digital",
+            "sks": 3,
+            "prioritas": 87
+        },
+        {
+            "id": "MK020",
+            "nama_matkul": "Pancasila 3",
+            "sks": 3,
+            "prioritas": 56
+        },
+        {
+            "id": "MK021",
+            "nama_matkul": "Pemrograman Dasar Lanjut",
+            "sks": 3,
+            "prioritas": 74
+        },
+        {
+            "id": "MK022",
+            "nama_matkul": "Fisika Dasar Proyek",
+            "sks": 4,
+            "prioritas": 75
+        },
+        {
+            "id": "MK023",
+            "nama_matkul": "Kewarganegaraan Lanjut",
+            "sks": 3,
+            "prioritas": 59
+        },
+        {
+            "id": "MK024",
+            "nama_matkul": "Matematika Diskrit 4",
+            "sks": 3,
+            "prioritas": 89
+        },
+        {
+            "id": "MK025",
+            "nama_matkul": "Praktikum Fisika Dasar",
+            "sks": 3,
+            "prioritas": 81
+        },
+        {
+            "id": "MK026",
+            "nama_matkul": "Matematika Diskrit",
+            "sks": 3,
+            "prioritas": 88
+        },
+        {
+            "id": "MK027",
+            "nama_matkul": "Keterampilan Interpersonal Proyek",
+            "sks": 2,
+            "prioritas": 36
+        },
+        {
+            "id": "MK028",
+            "nama_matkul": "Studi Kasus Algoritma Pemrograman",
+            "sks": 2,
+            "prioritas": 43
+        },
+        {
+            "id": "MK029",
+            "nama_matkul": "Literasi Digital",
+            "sks": 3,
+            "prioritas": 69
+        },
+        {
+            "id": "MK030",
+            "nama_matkul": "Terapan Literasi Digital 2",
+            "sks": 2,
+            "prioritas": 46
+        },
+        {
+            "id": "MK031",
+            "nama_matkul": "Matematika Diskrit 5",
+            "sks": 3,
+            "prioritas": 66
+        },
+        {
+            "id": "MK032",
+            "nama_matkul": "Proyek Keterampilan Interpersonal",
+            "sks": 2,
+            "prioritas": 58
+        },
+        {
+            "id": "MK033",
+            "nama_matkul": "Teori Bahasa Inggris",
+            "sks": 3,
+            "prioritas": 77
+        },
+        {
+            "id": "MK034",
+            "nama_matkul": "Studi Kasus Konsep Teknologi",
+            "sks": 4,
+            "prioritas": 100
+        },
+        {
+            "id": "MK035",
+            "nama_matkul": "Literasi Digital 3",
+            "sks": 4,
+            "prioritas": 50
+        },
+        {
+            "id": "MK036",
+            "nama_matkul": "Pengantar Sistem Informasi",
+            "sks": 3,
+            "prioritas": 67
+        },
+        {
+            "id": "MK037",
+            "nama_matkul": "Aljabar Linear Teori",
+            "sks": 4,
+            "prioritas": 62
+        },
+        {
+            "id": "MK038",
+            "nama_matkul": "Dasar Matematika Diskrit",
+            "sks": 3,
+            "prioritas": 63
+        },
+        {
+            "id": "MK039",
+            "nama_matkul": "Pengantar Manajemen 5",
+            "sks": 3,
+            "prioritas": 88
+        },
+        {
+            "id": "MK040",
+            "nama_matkul": "Proyek Konsep Teknologi",
+            "sks": 3,
+            "prioritas": 76
+        }
+    ],
+    "Semester 2": [
+        {
+            "id": "MK041",
+            "nama_matkul": "Studi Kasus Matematika Diskrit 5",
+            "sks": 3,
+            "prioritas": 76
+        },
+        {
+            "id": "MK042",
+            "nama_matkul": "Aljabar Linear",
+            "sks": 2,
+            "prioritas": 21
+        },
+        {
+            "id": "MK043",
+            "nama_matkul": "Pengantar Manajemen",
+            "sks": 3,
+            "prioritas": 68
+        },
+        {
+            "id": "MK044",
+            "nama_matkul": "Praktikum Literasi Digital",
+            "sks": 2,
+            "prioritas": 16
+        },
+        {
+            "id": "MK045",
+            "nama_matkul": "Terapan Aljabar Linear",
+            "sks": 3,
+            "prioritas": 68
+        },
+        {
+            "id": "MK046",
+            "nama_matkul": "Literasi Digital Praktikum",
+            "sks": 3,
+            "prioritas": 98
+        },
+        {
+            "id": "MK047",
+            "nama_matkul": "Studi Kasus Aljabar Linear",
+            "sks": 3,
+            "prioritas": 100
+        },
+        {
+            "id": "MK048",
+            "nama_matkul": "Bahasa Inggris",
+            "sks": 4,
+            "prioritas": 81
+        },
+        {
+            "id": "MK049",
+            "nama_matkul": "Pancasila",
+            "sks": 2,
+            "prioritas": 16
+        },
+        {
+            "id": "MK050",
+            "nama_matkul": "Pengantar Manajemen 1",
+            "sks": 2,
+            "prioritas": 14
+        },
+        {
+            "id": "MK051",
+            "nama_matkul": "Literasi Digital Proyek",
+            "sks": 2,
+            "prioritas": 41
+        },
+        {
+            "id": "MK052",
+            "nama_matkul": "Lanjut Keterampilan Interpersonal",
+            "sks": 2,
+            "prioritas": 22
+        },
+        {
+            "id": "MK053",
+            "nama_matkul": "Aljabar Linear 2",
+            "sks": 3,
+            "prioritas": 72
+        },
+        {
+            "id": "MK054",
+            "nama_matkul": "Keterampilan Interpersonal Praktikum",
+            "sks": 3,
+            "prioritas": 90
+        },
+        {
+            "id": "MK055",
+            "nama_matkul": "Pancasila Proyek",
+            "sks": 3,
+            "prioritas": 78
+        },
+        {
+            "id": "MK056",
+            "nama_matkul": "Praktikum Pemrograman Dasar",
+            "sks": 3,
+            "prioritas": 67
+        },
+        {
+            "id": "MK057",
+            "nama_matkul": "Matematika Diskrit Studi Kasus",
+            "sks": 2,
+            "prioritas": 21
+        },
+        {
+            "id": "MK058",
+            "nama_matkul": "Algoritma Pemrograman",
+            "sks": 3,
+            "prioritas": 58
+        },
+        {
+            "id": "MK059",
+            "nama_matkul": "Studi Kasus Matematika Diskrit",
+            "sks": 3,
+            "prioritas": 59
+        },
+        {
+            "id": "MK060",
+            "nama_matkul": "Terapan Pemrograman Dasar",
+            "sks": 2,
+            "prioritas": 17
+        },
+        {
+            "id": "MK061",
+            "nama_matkul": "Pengantar Sistem Informasi Lanjut",
+            "sks": 3,
+            "prioritas": 51
+        },
+        {
+            "id": "MK062",
+            "nama_matkul": "Pengantar Sistem Informasi Dasar",
+            "sks": 3,
+            "prioritas": 64
+        },
+        {
+            "id": "MK063",
+            "nama_matkul": "Praktikum Bahasa Inggris",
+            "sks": 3,
+            "prioritas": 54
+        },
+        {
+            "id": "MK064",
+            "nama_matkul": "Kewarganegaraan",
+            "sks": 4,
+            "prioritas": 93
+        },
+        {
+            "id": "MK065",
+            "nama_matkul": "Pancasila 4",
+            "sks": 4,
+            "prioritas": 92
+        },
+        {
+            "id": "MK066",
+            "nama_matkul": "Proyek Pengantar Manajemen",
+            "sks": 3,
+            "prioritas": 65
+        },
+        {
+            "id": "MK067",
+            "nama_matkul": "Algoritma Pemrograman Teori",
+            "sks": 3,
+            "prioritas": 91
+        },
+        {
+            "id": "MK068",
+            "nama_matkul": "Pengantar Manajemen 3",
+            "sks": 3,
+            "prioritas": 90
+        },
+        {
+            "id": "MK069",
+            "nama_matkul": "Kewarganegaraan 4",
+            "sks": 4,
+            "prioritas": 66
+        },
+        {
+            "id": "MK070",
+            "nama_matkul": "Konsep Teknologi",
+            "sks": 3,
+            "prioritas": 73
+        },
+        {
+            "id": "MK071",
+            "nama_matkul": "Matematika Diskrit",
+            "sks": 3,
+            "prioritas": 55
+        },
+        {
+            "id": "MK072",
+            "nama_matkul": "Matematika Diskrit Proyek",
+            "sks": 3,
+            "prioritas": 70
+        },
+        {
+            "id": "MK073",
+            "nama_matkul": "Logika Informatika",
+            "sks": 4,
+            "prioritas": 90
+        },
+        {
+            "id": "MK074",
+            "nama_matkul": "Matematika Diskrit Proyek 3",
+            "sks": 3,
+            "prioritas": 96
+        },
+        {
+            "id": "MK075",
+            "nama_matkul": "Matematika Diskrit 1",
+            "sks": 3,
+            "prioritas": 78
+        },
+        {
+            "id": "MK076",
+            "nama_matkul": "Dasar Pengantar Sistem Informasi",
+            "sks": 3,
+            "prioritas": 85
+        },
+        {
+            "id": "MK077",
+            "nama_matkul": "Pengantar Sistem Informasi",
+            "sks": 2,
+            "prioritas": 42
+        },
+        {
+            "id": "MK078",
+            "nama_matkul": "Dasar Konsep Teknologi",
+            "sks": 3,
+            "prioritas": 51
+        },
+        {
+            "id": "MK079",
+            "nama_matkul": "Pengantar Sistem Informasi Terapan",
+            "sks": 3,
+            "prioritas": 97
+        },
+        {
+            "id": "MK080",
+            "nama_matkul": "Kalkulus",
+            "sks": 2,
+            "prioritas": 48
+        }
+    ],
+    "Semester 3": [
+        {
+            "id": "MK081",
+            "nama_matkul": "Jaringan Komputer Lanjut",
+            "sks": 2,
+            "prioritas": 17
+        },
+        {
+            "id": "MK082",
+            "nama_matkul": "Pemrograman Berorientasi Objek (Java)",
+            "sks": 2,
+            "prioritas": 13
+        },
+        {
+            "id": "MK083",
+            "nama_matkul": "Praktikum Basis Data",
+            "sks": 2,
+            "prioritas": 60
+        },
+        {
+            "id": "MK084",
+            "nama_matkul": "Terapan Sistem Operasi",
+            "sks": 2,
+            "prioritas": 21
+        },
+        {
+            "id": "MK085",
+            "nama_matkul": "Studi Kasus Pemrograman Berorientasi Objek (Java)",
+            "sks": 2,
+            "prioritas": 49
+        },
+        {
+            "id": "MK086",
+            "nama_matkul": "Statistika Probabilitas 2",
+            "sks": 3,
+            "prioritas": 57
+        },
+        {
+            "id": "MK087",
+            "nama_matkul": "Dasar Sistem Informasi Manajemen",
+            "sks": 3,
+            "prioritas": 59
+        },
+        {
+            "id": "MK088",
+            "nama_matkul": "Pemrograman Berorientasi Objek (Java) 2",
+            "sks": 3,
+            "prioritas": 100
+        },
+        {
+            "id": "MK089",
+            "nama_matkul": "Pengembangan Web 4",
+            "sks": 2,
+            "prioritas": 10
+        },
+        {
+            "id": "MK090",
+            "nama_matkul": "Proyek Analisis Proses Bisnis",
+            "sks": 3,
+            "prioritas": 94
+        },
+        {
+            "id": "MK091",
+            "nama_matkul": "Pemrograman Lanjut Teori",
+            "sks": 3,
+            "prioritas": 91
+        },
+        {
+            "id": "MK092",
+            "nama_matkul": "Pengembangan Web Studi Kasus",
+            "sks": 3,
+            "prioritas": 63
+        },
+        {
+            "id": "MK093",
+            "nama_matkul": "Basis Data",
+            "sks": 4,
+            "prioritas": 63
+        },
+        {
+            "id": "MK094",
+            "nama_matkul": "Manajemen Proyek TI",
+            "sks": 2,
+            "prioritas": 11
+        },
+        {
+            "id": "MK095",
+            "nama_matkul": "Pengembangan Web",
+            "sks": 3,
+            "prioritas": 62
+        },
+        {
+            "id": "MK096",
+            "nama_matkul": "Lanjut Basis Data",
+            "sks": 3,
+            "prioritas": 60
+        },
+        {
+            "id": "MK097",
+            "nama_matkul": "Jaringan Komputer",
+            "sks": 3,
+            "prioritas": 83
+        },
+        {
+            "id": "MK098",
+            "nama_matkul": "Statistika Probabilitas",
+            "sks": 4,
+            "prioritas": 54
+        },
+        {
+            "id": "MK099",
+            "nama_matkul": "Manajemen Proyek TI Lanjut",
+            "sks": 3,
+            "prioritas": 87
+        },
+        {
+            "id": "MK100",
+            "nama_matkul": "Terapan Sistem Informasi Manajemen",
+            "sks": 3,
+            "prioritas": 88
+        },
+        {
+            "id": "MK101",
+            "nama_matkul": "Analisis Proses Bisnis Studi Kasus",
+            "sks": 2,
+            "prioritas": 45
+        },
+        {
+            "id": "MK102",
+            "nama_matkul": "Basis Data 1",
+            "sks": 3,
+            "prioritas": 66
+        },
+        {
+            "id": "MK103",
+            "nama_matkul": "Pemrograman Berorientasi Objek (Java) 1",
+            "sks": 3,
+            "prioritas": 71
+        },
+        {
+            "id": "MK104",
+            "nama_matkul": "Analisis Proses Bisnis Dasar",
+            "sks": 2,
+            "prioritas": 22
+        },
+        {
+            "id": "MK105",
+            "nama_matkul": "Struktur Data 2",
+            "sks": 3,
+            "prioritas": 62
+        },
+        {
+            "id": "MK106",
+            "nama_matkul": "Manajemen Proyek TI 5",
+            "sks": 4,
+            "prioritas": 90
+        },
+        {
+            "id": "MK107",
+            "nama_matkul": "Struktur Data 1",
+            "sks": 3,
+            "prioritas": 73
+        },
+        {
+            "id": "MK108",
+            "nama_matkul": "Basis Data 4",
+            "sks": 3,
+            "prioritas": 58
+        },
+        {
+            "id": "MK109",
+            "nama_matkul": "Pemrograman Berorientasi Objek (Java) Lanjut",
+            "sks": 4,
+            "prioritas": 83
+        },
+        {
+            "id": "MK110",
+            "nama_matkul": "Pemrograman Lanjut 3",
+            "sks": 3,
+            "prioritas": 69
+        },
+        {
+            "id": "MK111",
+            "nama_matkul": "Jaringan Komputer 2",
+            "sks": 2,
+            "prioritas": 50
+        },
+        {
+            "id": "MK112",
+            "nama_matkul": "Statistika Probabilitas 1",
+            "sks": 4,
+            "prioritas": 67
+        },
+        {
+            "id": "MK113",
+            "nama_matkul": "Basis Data Teori",
+            "sks": 3,
+            "prioritas": 57
+        },
+        {
+            "id": "MK114",
+            "nama_matkul": "Arsitektur Komputer Studi Kasus",
+            "sks": 4,
+            "prioritas": 80
+        },
+        {
+            "id": "MK115",
+            "nama_matkul": "Struktur Data",
+            "sks": 3,
+            "prioritas": 62
+        },
+        {
+            "id": "MK116",
+            "nama_matkul": "Sistem Informasi Manajemen Proyek",
+            "sks": 4,
+            "prioritas": 80
+        },
+        {
+            "id": "MK117",
+            "nama_matkul": "Jaringan Komputer 5",
+            "sks": 3,
+            "prioritas": 65
+        },
+        {
+            "id": "MK118",
+            "nama_matkul": "Pemrograman Lanjut",
+            "sks": 2,
+            "prioritas": 49
+        },
+        {
+            "id": "MK119",
+            "nama_matkul": "Proyek Manajemen Proyek TI",
+            "sks": 4,
+            "prioritas": 71
+        },
+        {
+            "id": "MK120",
+            "nama_matkul": "Rekayasa Perangkat Lunak",
+            "sks": 3,
+            "prioritas": 57
+        }
+    ],
+    "Semester 4": [
+        {
+            "id": "MK121",
+            "nama_matkul": "Desain Antarmuka",
+            "sks": 4,
+            "prioritas": 98
+        },
+        {
+            "id": "MK122",
+            "nama_matkul": "Desain Antarmuka 4",
+            "sks": 3,
+            "prioritas": 74
+        },
+        {
+            "id": "MK123",
+            "nama_matkul": "Rekayasa Perangkat Lunak 1",
+            "sks": 3,
+            "prioritas": 92
+        },
+        {
+            "id": "MK124",
+            "nama_matkul": "Proyek Jaringan Komputer",
+            "sks": 3,
+            "prioritas": 64
+        },
+        {
+            "id": "MK125",
+            "nama_matkul": "Jaringan Komputer Teori",
+            "sks": 3,
+            "prioritas": 69
+        },
+        {
+            "id": "MK126",
+            "nama_matkul": "Analisis Proses Bisnis Proyek",
+            "sks": 4,
+            "prioritas": 99
+        },
+        {
+            "id": "MK127",
+            "nama_matkul": "Struktur Data Studi Kasus",
+            "sks": 2,
+            "prioritas": 28
+        },
+        {
+            "id": "MK128",
+            "nama_matkul": "Sistem Informasi Manajemen 5",
+            "sks": 2,
+            "prioritas": 30
+        },
+        {
+            "id": "MK129",
+            "nama_matkul": "Terapan Statistika Probabilitas",
+            "sks": 3,
+            "prioritas": 70
+        },
+        {
+            "id": "MK130",
+            "nama_matkul": "Proyek Pemrograman Berorientasi Objek (Java)",
+            "sks": 3,
+            "prioritas": 88
+        },
+        {
+            "id": "MK131",
+            "nama_matkul": "Manajemen Proyek TI",
+            "sks": 4,
+            "prioritas": 89
+        },
+        {
+            "id": "MK132",
+            "nama_matkul": "Keamanan Informasi Dasar 1",
+            "sks": 3,
+            "prioritas": 69
+        },
+        {
+            "id": "MK133",
+            "nama_matkul": "Analisis Proses Bisnis Terapan",
+            "sks": 3,
+            "prioritas": 78
+        },
+        {
+            "id": "MK134",
+            "nama_matkul": "Praktikum Pemrograman Berorientasi Objek (Java)",
+            "sks": 3,
+            "prioritas": 81
+        },
+        {
+            "id": "MK135",
+            "nama_matkul": "Jaringan Komputer",
+            "sks": 2,
+            "prioritas": 48
+        },
+        {
+            "id": "MK136",
+            "nama_matkul": "Struktur Data Lanjut",
+            "sks": 3,
+            "prioritas": 91
+        },
+        {
+            "id": "MK137",
+            "nama_matkul": "Desain Antarmuka 1",
+            "sks": 3,
+            "prioritas": 73
+        },
+        {
+            "id": "MK138",
+            "nama_matkul": "Sistem Operasi 3",
+            "sks": 3,
+            "prioritas": 99
+        },
+        {
+            "id": "MK139",
+            "nama_matkul": "Statistika Probabilitas",
+            "sks": 2,
+            "prioritas": 42
+        },
+        {
+            "id": "MK140",
+            "nama_matkul": "Struktur Data Dasar",
+            "sks": 4,
+            "prioritas": 66
+        },
+        {
+            "id": "MK141",
+            "nama_matkul": "Desain Antarmuka Proyek",
+            "sks": 3,
+            "prioritas": 96
+        },
+        {
+            "id": "MK142",
+            "nama_matkul": "Teori Pemrograman Berorientasi Objek (Java)",
+            "sks": 3,
+            "prioritas": 93
+        },
+        {
+            "id": "MK143",
+            "nama_matkul": "Manajemen Proyek TI Dasar",
+            "sks": 3,
+            "prioritas": 54
+        },
+        {
+            "id": "MK144",
+            "nama_matkul": "Keamanan Informasi Dasar",
+            "sks": 3,
+            "prioritas": 78
+        },
+        {
+            "id": "MK145",
+            "nama_matkul": "Praktikum Keamanan Informasi Dasar",
+            "sks": 3,
+            "prioritas": 69
+        },
+        {
+            "id": "MK146",
+            "nama_matkul": "Terapan Pengembangan Web",
+            "sks": 3,
+            "prioritas": 67
+        },
+        {
+            "id": "MK147",
+            "nama_matkul": "Studi Kasus Desain Antarmuka",
+            "sks": 3,
+            "prioritas": 61
+        },
+        {
+            "id": "MK148",
+            "nama_matkul": "Manajemen Proyek TI 3",
+            "sks": 4,
+            "prioritas": 61
+        },
+        {
+            "id": "MK149",
+            "nama_matkul": "Struktur Data Praktikum",
+            "sks": 4,
+            "prioritas": 91
+        },
+        {
+            "id": "MK150",
+            "nama_matkul": "Sistem Informasi Manajemen Lanjut",
+            "sks": 3,
+            "prioritas": 61
+        },
+        {
+            "id": "MK151",
+            "nama_matkul": "Sistem Operasi",
+            "sks": 4,
+            "prioritas": 60
+        },
+        {
+            "id": "MK152",
+            "nama_matkul": "Analisis Proses Bisnis Teori",
+            "sks": 3,
+            "prioritas": 79
+        },
+        {
+            "id": "MK153",
+            "nama_matkul": "Struktur Data",
+            "sks": 3,
+            "prioritas": 67
+        },
+        {
+            "id": "MK154",
+            "nama_matkul": "Sistem Informasi Manajemen",
+            "sks": 2,
+            "prioritas": 45
+        },
+        {
+            "id": "MK155",
+            "nama_matkul": "Jaringan Komputer 1",
+            "sks": 4,
+            "prioritas": 63
+        },
+        {
+            "id": "MK156",
+            "nama_matkul": "Rekayasa Perangkat Lunak 5",
+            "sks": 4,
+            "prioritas": 64
+        },
+        {
+            "id": "MK157",
+            "nama_matkul": "Pemrograman Lanjut",
+            "sks": 3,
+            "prioritas": 92
+        },
+        {
+            "id": "MK158",
+            "nama_matkul": "Dasar Pemrograman Berorientasi Objek (Java)",
+            "sks": 2,
+            "prioritas": 32
+        },
+        {
+            "id": "MK159",
+            "nama_matkul": "Rekayasa Perangkat Lunak",
+            "sks": 4,
+            "prioritas": 77
+        },
+        {
+            "id": "MK160",
+            "nama_matkul": "Manajemen Proyek TI 4",
+            "sks": 3,
+            "prioritas": 77
+        }
+    ],
+    "Semester 5": [
+        {
+            "id": "MK161",
+            "nama_matkul": "Etika Profesi",
+            "sks": 3,
+            "prioritas": 62
+        },
+        {
+            "id": "MK162",
+            "nama_matkul": "Studi Kasus Perancangan dan Analisis Algoritma",
+            "sks": 3,
+            "prioritas": 92
+        },
+        {
+            "id": "MK163",
+            "nama_matkul": "Machine Learning Praktikum",
+            "sks": 3,
+            "prioritas": 76
+        },
+        {
+            "id": "MK164",
+            "nama_matkul": "Dasar Keamanan Siber",
+            "sks": 3,
+            "prioritas": 53
+        },
+        {
+            "id": "MK165",
+            "nama_matkul": "Perancangan dan Analisis Algoritma 4",
+            "sks": 4,
+            "prioritas": 53
+        },
+        {
+            "id": "MK166",
+            "nama_matkul": "Internet of Things Proyek",
+            "sks": 3,
+            "prioritas": 92
+        },
+        {
+            "id": "MK167",
+            "nama_matkul": "Machine Learning 3",
+            "sks": 3,
+            "prioritas": 76
+        },
+        {
+            "id": "MK168",
+            "nama_matkul": "Tata Kelola TI",
+            "sks": 4,
+            "prioritas": 96
+        },
+        {
+            "id": "MK169",
+            "nama_matkul": "Praktikum Data Mining",
+            "sks": 2,
+            "prioritas": 47
+        },
+        {
+            "id": "MK170",
+            "nama_matkul": "Audit Sistem Informasi",
+            "sks": 3,
+            "prioritas": 57
+        },
+        {
+            "id": "MK171",
+            "nama_matkul": "Tata Kelola TI Proyek",
+            "sks": 3,
+            "prioritas": 83
+        },
+        {
+            "id": "MK172",
+            "nama_matkul": "Terapan Internet of Things",
+            "sks": 4,
+            "prioritas": 97
+        },
+        {
+            "id": "MK173",
+            "nama_matkul": "Machine Learning",
+            "sks": 3,
+            "prioritas": 84
+        },
+        {
+            "id": "MK174",
+            "nama_matkul": "Perancangan dan Analisis Algoritma",
+            "sks": 3,
+            "prioritas": 58
+        },
+        {
+            "id": "MK175",
+            "nama_matkul": "Web Security Terapan",
+            "sks": 3,
+            "prioritas": 96
+        },
+        {
+            "id": "MK176",
+            "nama_matkul": "Cloud Computing Proyek",
+            "sks": 3,
+            "prioritas": 61
+        },
+        {
+            "id": "MK177",
+            "nama_matkul": "Praktikum Web Security 3",
+            "sks": 4,
+            "prioritas": 72
+        },
+        {
+            "id": "MK178",
+            "nama_matkul": "Tata Kelola TI 4",
+            "sks": 2,
+            "prioritas": 12
+        },
+        {
+            "id": "MK179",
+            "nama_matkul": "Studi Kasus Keamanan Siber",
+            "sks": 3,
+            "prioritas": 57
+        },
+        {
+            "id": "MK180",
+            "nama_matkul": "Data Science",
+            "sks": 3,
+            "prioritas": 90
+        },
+        {
+            "id": "MK181",
+            "nama_matkul": "Kecerdasan Buatan Studi Kasus",
+            "sks": 3,
+            "prioritas": 92
+        },
+        {
+            "id": "MK182",
+            "nama_matkul": "Teori Pengujian Perangkat Lunak",
+            "sks": 3,
+            "prioritas": 90
+        },
+        {
+            "id": "MK183",
+            "nama_matkul": "Praktikum Tata Kelola TI",
+            "sks": 4,
+            "prioritas": 66
+        },
+        {
+            "id": "MK184",
+            "nama_matkul": "Kriptografi Teori",
+            "sks": 2,
+            "prioritas": 20
+        },
+        {
+            "id": "MK185",
+            "nama_matkul": "Tata Kelola TI Terapan",
+            "sks": 2,
+            "prioritas": 44
+        },
+        {
+            "id": "MK186",
+            "nama_matkul": "Data Mining Dasar",
+            "sks": 4,
+            "prioritas": 89
+        },
+        {
+            "id": "MK187",
+            "nama_matkul": "Terapan Cloud Computing",
+            "sks": 3,
+            "prioritas": 68
+        },
+        {
+            "id": "MK188",
+            "nama_matkul": "Perancangan dan Analisis Algoritma Lanjut 2",
+            "sks": 2,
+            "prioritas": 50
+        },
+        {
+            "id": "MK189",
+            "nama_matkul": "Perancangan dan Analisis Algoritma Lanjut",
+            "sks": 3,
+            "prioritas": 65
+        },
+        {
+            "id": "MK190",
+            "nama_matkul": "Tata Kelola TI 5",
+            "sks": 2,
+            "prioritas": 21
+        },
+        {
+            "id": "MK191",
+            "nama_matkul": "Lanjut Kecerdasan Buatan",
+            "sks": 2,
+            "prioritas": 55
+        },
+        {
+            "id": "MK192",
+            "nama_matkul": "Audit Sistem Informasi Teori",
+            "sks": 3,
+            "prioritas": 87
+        },
+        {
+            "id": "MK193",
+            "nama_matkul": "Proyek Keamanan Siber",
+            "sks": 3,
+            "prioritas": 62
+        },
+        {
+            "id": "MK194",
+            "nama_matkul": "Kriptografi Studi Kasus",
+            "sks": 3,
+            "prioritas": 80
+        },
+        {
+            "id": "MK195",
+            "nama_matkul": "Lanjut Etika Profesi",
+            "sks": 3,
+            "prioritas": 91
+        },
+        {
+            "id": "MK196",
+            "nama_matkul": "Keamanan Siber",
+            "sks": 3,
+            "prioritas": 67
+        },
+        {
+            "id": "MK197",
+            "nama_matkul": "Data Science Terapan",
+            "sks": 4,
+            "prioritas": 78
+        },
+        {
+            "id": "MK198",
+            "nama_matkul": "Data Science Teori",
+            "sks": 2,
+            "prioritas": 53
+        },
+        {
+            "id": "MK199",
+            "nama_matkul": "Tata Kelola TI Terapan 1",
+            "sks": 4,
+            "prioritas": 72
+        },
+        {
+            "id": "MK200",
+            "nama_matkul": "Praktikum Web Security",
+            "sks": 2,
+            "prioritas": 25
+        }
+    ],
+    "Semester 6": [
+        {
+            "id": "MK201",
+            "nama_matkul": "Web Security Proyek",
+            "sks": 2,
+            "prioritas": 38
+        },
+        {
+            "id": "MK202",
+            "nama_matkul": "Tata Kelola TI 1",
+            "sks": 3,
+            "prioritas": 77
+        },
+        {
+            "id": "MK203",
+            "nama_matkul": "Terapan Etika Profesi",
+            "sks": 3,
+            "prioritas": 71
+        },
+        {
+            "id": "MK204",
+            "nama_matkul": "Proyek Tata Kelola TI",
+            "sks": 3,
+            "prioritas": 84
+        },
+        {
+            "id": "MK205",
+            "nama_matkul": "Proyek Kriptografi",
+            "sks": 4,
+            "prioritas": 88
+        },
+        {
+            "id": "MK206",
+            "nama_matkul": "Teori Web Security",
+            "sks": 3,
+            "prioritas": 67
+        },
+        {
+            "id": "MK207",
+            "nama_matkul": "Tata Kelola TI",
+            "sks": 2,
+            "prioritas": 49
+        },
+        {
+            "id": "MK208",
+            "nama_matkul": "Keamanan Siber 1",
+            "sks": 4,
+            "prioritas": 68
+        },
+        {
+            "id": "MK209",
+            "nama_matkul": "Audit Sistem Informasi 5",
+            "sks": 2,
+            "prioritas": 55
+        },
+        {
+            "id": "MK210",
+            "nama_matkul": "Audit Sistem Informasi",
+            "sks": 4,
+            "prioritas": 82
+        },
+        {
+            "id": "MK211",
+            "nama_matkul": "Terapan Machine Learning",
+            "sks": 3,
+            "prioritas": 81
+        },
+        {
+            "id": "MK212",
+            "nama_matkul": "Kriptografi",
+            "sks": 4,
+            "prioritas": 68
+        },
+        {
+            "id": "MK213",
+            "nama_matkul": "Sistem Enterprise 4",
+            "sks": 3,
+            "prioritas": 82
+        },
+        {
+            "id": "MK214",
+            "nama_matkul": "Web Security Dasar",
+            "sks": 2,
+            "prioritas": 49
+        },
+        {
+            "id": "MK215",
+            "nama_matkul": "Machine Learning",
+            "sks": 3,
+            "prioritas": 52
+        },
+        {
+            "id": "MK216",
+            "nama_matkul": "Teori Internet of Things",
+            "sks": 4,
+            "prioritas": 59
+        },
+        {
+            "id": "MK217",
+            "nama_matkul": "Cloud Computing",
+            "sks": 3,
+            "prioritas": 70
+        },
+        {
+            "id": "MK218",
+            "nama_matkul": "Terapan Kriptografi",
+            "sks": 3,
+            "prioritas": 60
+        },
+        {
+            "id": "MK219",
+            "nama_matkul": "Sistem Enterprise Lanjut",
+            "sks": 4,
+            "prioritas": 55
+        },
+        {
+            "id": "MK220",
+            "nama_matkul": "Dasar Machine Learning",
+            "sks": 2,
+            "prioritas": 39
+        },
+        {
+            "id": "MK221",
+            "nama_matkul": "Data Science",
+            "sks": 2,
+            "prioritas": 31
+        },
+        {
+            "id": "MK222",
+            "nama_matkul": "Lanjut Machine Learning",
+            "sks": 3,
+            "prioritas": 97
+        },
+        {
+            "id": "MK223",
+            "nama_matkul": "Data Science 4",
+            "sks": 2,
+            "prioritas": 46
+        },
+        {
+            "id": "MK224",
+            "nama_matkul": "Kriptografi Teori",
+            "sks": 4,
+            "prioritas": 96
+        },
+        {
+            "id": "MK225",
+            "nama_matkul": "Lanjut Web Security",
+            "sks": 3,
+            "prioritas": 53
+        },
+        {
+            "id": "MK226",
+            "nama_matkul": "Dasar Kecerdasan Buatan",
+            "sks": 2,
+            "prioritas": 52
+        },
+        {
+            "id": "MK227",
+            "nama_matkul": "Cloud Computing Terapan",
+            "sks": 2,
+            "prioritas": 48
+        },
+        {
+            "id": "MK228",
+            "nama_matkul": "Audit Sistem Informasi Teori",
+            "sks": 4,
+            "prioritas": 94
+        },
+        {
+            "id": "MK229",
+            "nama_matkul": "Cloud Computing Studi Kasus",
+            "sks": 3,
+            "prioritas": 90
+        },
+        {
+            "id": "MK230",
+            "nama_matkul": "Internet of Things 1",
+            "sks": 2,
+            "prioritas": 58
+        },
+        {
+            "id": "MK231",
+            "nama_matkul": "Machine Learning Lanjut",
+            "sks": 3,
+            "prioritas": 52
+        },
+        {
+            "id": "MK232",
+            "nama_matkul": "Teori Audit Sistem Informasi",
+            "sks": 4,
+            "prioritas": 62
+        },
+        {
+            "id": "MK233",
+            "nama_matkul": "Proyek Sistem Enterprise",
+            "sks": 3,
+            "prioritas": 70
+        },
+        {
+            "id": "MK234",
+            "nama_matkul": "Dasar Cloud Computing",
+            "sks": 4,
+            "prioritas": 50
+        },
+        {
+            "id": "MK235",
+            "nama_matkul": "Internet of Things 5",
+            "sks": 3,
+            "prioritas": 55
+        },
+        {
+            "id": "MK236",
+            "nama_matkul": "Keamanan Siber",
+            "sks": 3,
+            "prioritas": 88
+        },
+        {
+            "id": "MK237",
+            "nama_matkul": "Pengujian Perangkat Lunak",
+            "sks": 3,
+            "prioritas": 69
+        },
+        {
+            "id": "MK238",
+            "nama_matkul": "Internet of Things 3",
+            "sks": 3,
+            "prioritas": 66
+        },
+        {
+            "id": "MK239",
+            "nama_matkul": "Internet of Things",
+            "sks": 2,
+            "prioritas": 29
+        },
+        {
+            "id": "MK240",
+            "nama_matkul": "Sistem Enterprise",
+            "sks": 4,
+            "prioritas": 53
+        }
+    ],
+    "Semester 7": [
+        {
+            "id": "MK241",
+            "nama_matkul": "Kapita Selekta 5",
+            "sks": 3,
+            "prioritas": 64
+        },
+        {
+            "id": "MK242",
+            "nama_matkul": "Metodologi Penelitian",
+            "sks": 3,
+            "prioritas": 98
+        },
+        {
+            "id": "MK243",
+            "nama_matkul": "Seminar Proposal 2",
+            "sks": 3,
+            "prioritas": 70
+        },
+        {
+            "id": "MK244",
+            "nama_matkul": "Manajemen Risiko TI 2",
+            "sks": 2,
+            "prioritas": 28
+        },
+        {
+            "id": "MK245",
+            "nama_matkul": "Manajemen Risiko TI",
+            "sks": 3,
+            "prioritas": 60
+        },
+        {
+            "id": "MK246",
+            "nama_matkul": "Kapita Selekta",
+            "sks": 4,
+            "prioritas": 96
+        },
+        {
+            "id": "MK247",
+            "nama_matkul": "Proyek Independen",
+            "sks": 3,
+            "prioritas": 54
+        },
+        {
+            "id": "MK248",
+            "nama_matkul": "Publikasi Ilmiah",
+            "sks": 3,
+            "prioritas": 78
+        },
+        {
+            "id": "MK249",
+            "nama_matkul": "Seminar Proposal",
+            "sks": 3,
+            "prioritas": 89
+        },
+        {
+            "id": "MK250",
+            "nama_matkul": "Sertifikasi Profesional",
+            "sks": 3,
+            "prioritas": 83
+        }
+    ],
+    "Semester 8": [
+        {
+            "id": "MK251",
+            "nama_matkul": "Manajemen Risiko TI",
+            "sks": 2,
+            "prioritas": 43
+        },
+        {
+            "id": "MK252",
+            "nama_matkul": "Skripsi",
+            "sks": 3,
+            "prioritas": 60
+        },
+        {
+            "id": "MK253",
+            "nama_matkul": "Kerja Praktik",
+            "sks": 2,
+            "prioritas": 58
+        },
+        {
+            "id": "MK254",
+            "nama_matkul": "Seminar Proposal",
+            "sks": 3,
+            "prioritas": 86
+        },
+        {
+            "id": "MK255",
+            "nama_matkul": "Publikasi Ilmiah",
+            "sks": 3,
+            "prioritas": 87
+        },
+        {
+            "id": "MK256",
+            "nama_matkul": "Publikasi Ilmiah 1",
+            "sks": 3,
+            "prioritas": 88
+        },
+        {
+            "id": "MK257",
+            "nama_matkul": "Technopreneurship",
+            "sks": 2,
+            "prioritas": 10
+        },
+        {
+            "id": "MK258",
+            "nama_matkul": "Proyek Independen",
+            "sks": 2,
+            "prioritas": 11
+        },
+        {
+            "id": "MK259",
+            "nama_matkul": "Sertifikasi Profesional",
+            "sks": 3,
+            "prioritas": 60
+        },
+        {
+            "id": "MK260",
+            "nama_matkul": "Proyek Independen 1",
+            "sks": 2,
+            "prioritas": 30
+        }
+    ]
+}

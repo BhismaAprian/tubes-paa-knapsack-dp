@@ -125,10 +125,32 @@ def hitung_skenario_kompleksitas(matkul_list: List[Dict]) -> List[Dict]:
 if __name__ == "__main__":
     import json, os
 
-    with open(os.path.join("data", "matkul.json")) as f:
-        data = json.load(f)
+    # 1. Sesuaikan nama file JSON yang baru
+    # Pastikan file dataset_matkul.json ada di dalam folder 'data'
+    filepath = os.path.join("data", "dataset_matkul.json")
+    
+    # Fallback jika file ditaruh di folder yang sama dengan script
+    if not os.path.exists(filepath):
+        filepath = "dataset_matkul.json"
 
-    hasil = solve(data, batas_sks=10)
+    with open(filepath) as f:
+        raw_data = json.load(f)
+
+    # 2. Ambil sampel satu semester untuk testing (misal Semester 3)
+    data_semester = raw_data["Semester 3"]
+
+    # 3. Mapping struktur JSON baru ke format yang dikenali fungsi solve()
+    data_mapped = []
+    for mk in data_semester:
+        data_mapped.append({
+            "nama": mk["nama_matkul"],
+            "sks": mk["sks"],
+            # Konversi prioritas (skala 100) ke IPK (skala 4.0)
+            "ekspektasi_nilai": round(mk["prioritas"] / 25, 1) 
+        })
+
+    # 4. Jalankan solver
+    hasil = solve(data_mapped, batas_sks=10)
 
     print("=" * 50)
     print("HASIL OPTIMASI MATKUL (DP)")

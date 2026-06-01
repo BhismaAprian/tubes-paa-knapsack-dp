@@ -41,11 +41,12 @@ st.set_page_config(
 
 @st.cache_data
 def load_matkul():
-    path = os.path.join(os.path.dirname(__file__), "data", "matkul.json")
+    path = os.path.join(os.path.dirname(__file__), "data", "dataset_matkul.json")
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 MATKUL_DEFAULT = load_matkul()
+
 
 # ─────────────────────────────────────────────
 #  SIDEBAR — INPUT & NAVIGASI
@@ -66,14 +67,23 @@ with st.sidebar:
     )
 
     st.markdown("---")
+    st.subheader("🗓️ Pilih Semester")
+    pilihan_semester = st.selectbox("Pilih data semester yang ingin dioptimasi:", list(MATKUL_DEFAULT.keys()))
+    
+    st.markdown("---")
     st.subheader("📋 Daftar Mata Kuliah")
-    st.caption("Edit ekspektasi nilai sesuai kemampuanmu.")
+    st.caption(f"Menampilkan matkul untuk {pilihan_semester}. Edit ekspektasi nilai sesuai kemampuanmu.")
 
-    # Tabel editable matkul
-    df_edit = pd.DataFrame(MATKUL_DEFAULT)
-    df_edit = df_edit[["nama", "sks", "ekspektasi_nilai"]]
+    # Ambil data HANYA dari semester yang dipilih
+    data_semester = MATKUL_DEFAULT[pilihan_semester]
+    df_edit = pd.DataFrame(data_semester)
+
+    # Sesuaikan key dari JSON
+    df_edit["Ekspektasi Nilai"] = (df_edit["prioritas"] / 25).round(1) 
+    df_edit = df_edit[["nama_matkul", "sks", "Ekspektasi Nilai"]]
     df_edit.columns = ["Mata Kuliah", "SKS", "Ekspektasi Nilai"]
 
+    # Tabel editable matkul
     edited_df = st.data_editor(
         df_edit,
         num_rows="dynamic",
@@ -85,6 +95,7 @@ with st.sidebar:
         hide_index=True,
     )
 
+    # ---> BAGIAN INI SANGAT PENTING DAN TIDAK BOLEH HILANG <---
     matkul_list = [
         {
             "nama"             : row["Mata Kuliah"],
@@ -96,6 +107,8 @@ with st.sidebar:
     ]
 
     st.markdown("---")
+    
+    # ---> INI VARIABEL YANG BIKIN ERROR TADI <---
     tombol = st.button("🚀 Hitung Kombinasi Optimal", type="primary", use_container_width=True)
 
     st.markdown("---")

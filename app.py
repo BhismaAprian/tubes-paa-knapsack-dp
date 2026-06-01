@@ -1,18 +1,3 @@
-"""
-app.py  —  Tubes Besar: Optimasi Pemilihan Mata Kuliah
-=======================================================
-Algoritma Dynamic Programming (0/1 Knapsack)
-Antarmuka  : Streamlit (web)
-Jalankan   : streamlit run app.py
-
-Kelompok   : [Nama Kelompok]
-Anggota    :
-    1. [Nama A1] — Algoritma DP
-    2. [Nama A2] — Data & Pengujian
-    3. [Nama A3] — Visualisasi & UI
-    4. [Nama A4] — Laporan & Dokumentasi
-"""
-
 import json
 import os
 import time
@@ -21,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
-
+import matplotlib 
 from dp_solver import solve, hitung_skenario_kompleksitas
 
 # ─────────────────────────────────────────────
@@ -35,9 +20,6 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# ─────────────────────────────────────────────
-#  LOAD DATA
-# ─────────────────────────────────────────────
 
 @st.cache_data
 def load_matkul():
@@ -47,11 +29,8 @@ def load_matkul():
 
 MATKUL_DEFAULT = load_matkul()
 
-
-# ─────────────────────────────────────────────
-#  SIDEBAR — INPUT & NAVIGASI
-# ─────────────────────────────────────────────
-
+=======
+>>>>>>> d8829c75a8e3d3c25eca2f5e3bc841da80cc18dc
 with st.sidebar:
     st.title("⚙️ Pengaturan")
     st.markdown("---")

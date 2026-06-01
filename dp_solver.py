@@ -1,13 +1,3 @@
-"""
-dp_solver.py
-============
-Modul algoritma Dynamic Programming untuk optimasi pemilihan mata kuliah.
-Mengimplementasikan 0/1 Knapsack Problem.
-
-Kelompok  : [Nama Kelompok]
-Mata Kuliah: Analisis dan Desain Algoritma
-"""
-
 import time
 from typing import List, Dict, Any
 
@@ -27,7 +17,7 @@ def solve(matkul_list: List[Dict], batas_sks: int) -> Dict[str, Any]:
 
     Return:
         dict berisi matkul dipilih, total SKS, ekspektasi IPK,
-        tabel DP, dan analisis kompleksitas.
+        tabel DP, dan analisis kompleksitas.3
     """
     start_time = time.perf_counter()
 

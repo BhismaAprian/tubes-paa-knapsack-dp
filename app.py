@@ -29,8 +29,6 @@ def load_matkul():
 
 MATKUL_DEFAULT = load_matkul()
 
-=======
->>>>>>> d8829c75a8e3d3c25eca2f5e3bc841da80cc18dc
 with st.sidebar:
     st.title("⚙️ Pengaturan")
     st.markdown("---")

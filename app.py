@@ -72,7 +72,6 @@ with st.sidebar:
         hide_index=True,
     )
 
-    # ---> BAGIAN INI SANGAT PENTING DAN TIDAK BOLEH HILANG <---
     matkul_list = [
         {
             "nama"             : row["Mata Kuliah"],
@@ -85,7 +84,6 @@ with st.sidebar:
 
     st.markdown("---")
     
-    # ---> INI VARIABEL YANG BIKIN ERROR TADI <---
     tombol = st.button("Hitung Kombinasi Optimal", type="primary", use_container_width=True)
 
     st.markdown("---")
@@ -131,7 +129,6 @@ with tab1:
 
             st.success("Optimasi selesai!")
 
-            # ── Metric cards ─────────────────────────────────────────────
             col1, col2, col3, col4 = st.columns(4)
             col1.metric("Matkul Dipilih",    len(hasil["dipilih"]))
             col2.metric("Total SKS",          hasil["total_sks"], f"dari {batas_sks} SKS")
@@ -140,7 +137,6 @@ with tab1:
 
             st.markdown("---")
 
-            # ── Dua kolom: dipilih vs tidak dipilih ──────────────────────
             left, right = st.columns(2)
 
             with left:
